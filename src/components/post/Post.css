@@ -1,0 +1,90 @@
+.post {
+  display: flex;
+  padding: 20px;
+  margin-top: 15px;
+  border-top: 1px solid var(--twitter-backgroundColor);
+  border-bottom: 1px solid var(--twitter-backgroundColor);
+  cursor: pointer;
+}
+
+.post__details {
+  flex: 1;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.post_headerDetails {
+  margin-bottom: 10px;
+}
+
+.post__userDetals {
+  display: flex;
+  align-items: center;
+}
+
+.post__userDetals > h3 {
+  margin-right: 10px;
+}
+
+.post__userDetailsRight {
+  color: gray;
+  font-size: 17px;
+}
+
+.post__userDetailsLeft {
+  display: flex;
+  align-items: center;
+}
+
+.post__userDetailsLeft > span {
+  margin-left: 5px;
+}
+
+.post__imageFunc {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid var(--twitter-backgroundColor);
+}
+
+.post__imageFuncDescript {
+  padding: 10px 20px;
+  font-weight: 500;
+  background-color: rgb(250, 250, 250);
+}
+
+.post__mainDescript {
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.post__optDescript {
+  color: gray;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.post__features {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.post__featuresRanking {
+  display: flex;
+  align-items: center;
+  color: gray !important;
+}
+
+.post__featuresIcon {
+  margin-right: 10px;
+}
+
+.post__verifiedIcon {
+  color: var(--twitter-color);
+}
+
+.post__imageFunc > img {
+  width: 100%;
+}
